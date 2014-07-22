@@ -1,0 +1,15 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Altura del pie de pagina */
+  margin-bottom: 30px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Altura del pie de pagina */
+  height: 30px;
+}
