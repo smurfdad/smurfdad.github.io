@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>bs-colored-callout examples</title>
+ 
+        <link href='../assets/bootstrap/3.3.1/css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
+		<link href='../css/bs-colored-callout.css' rel='stylesheet' type='text/css'/>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' type='text/javascript'></script>
+		<script src='../assets/bootstrap/3.3.1/js/bootstrap.min.js' type='text/javascript'></script>
+        <script>
+			var colores = new Array("black","navy","darkblue","mediumblue","blue","darkgreen","green","teal","darkcyan","deepskyblue","darkturquoise","mediumspringgreen","lime","springgreen","aqua","cyan","midnightblue","dodgerblue","lightseagreen","forestgreen","seagreen","darkslategray","limegreen","mediumseagreen","turquoise","royalblue","steelblue","darkslateblue","mediumturquoise","indigo","darkolivegreen","cadetblue","cornflowerblue","rebeccapurple","mediumaquamarine","dimgray","slateblue","olivedrab","slategray","lightslategray","mediumslateblue","lawngreen","chartreuse","aquamarine","maroon","purple","olive","gray","skyblue","lightskyblue","blueviolet","darkred","darkmagenta","saddlebrown","darkseagreen","lightgreen","mediumpurple","darkviolet","palegreen","darkorchid","yellowgreen","sienna","brown","darkgray","lightblue","greenyellow","paleturquoise","lightsteelblue","powderblue","firebrick","darkgoldenrod","mediumorchid","rosybrown","darkkhaki","silver","mediumvioletred","indianred","peru","chocolate","tan","lightgray","thistle","orchid","goldenrod","palevioletred","crimson","gainsboro","plum","burlywood","lightcyan","lavender","darksalmon","violet","palegoldenrod","lightcoral","khaki","aliceblue","honeydew","azure","sandybrown","wheat","beige","whitesmoke","mintcream","ghostwhite","salmon","antiquewhite","linen","lightgoldenrodyellow","oldlace","red","fuchsia","magenta","deeppink","orangered","tomato","hotpink","coral","darkorange","lightsalmon","orange","lightpink","pink","gold","peachpuff","navajowhite","moccasin","bisque","mistyrose","blanchedalmond","papayawhip","lavenderblush","seashell","cornsilk","lemonchiffon","floralwhite","snow","yellow","lightyellow","ivory","white");
+			$(document).ready(function () {
+				for(i=0; i<colores.length;i++){
+					var $div = $(document.createElement( "div" ));
+					$div.addClass("bs-colored-callout").addClass("bs-colored-callout-"+colores[i]);
+					$div.attr("id","div-"+colores[i]);
+					for(j=1; j<=6; j++){
+						$div.append(heading(j, colores[i]));
+					}
+					$div.append(parrafo());
+					$div.append(code($div.attr("class")));
+					$("body").append($div);
+				}
+			});
+			
+			function heading(index, texto){
+				$h = $(document.createElement( "h"+index ));
+				$h.text(texto);
+				return $h;
+
+			}			
+			function parrafo(){
+				$p = $(document.createElement( "p"));
+				$p.text("Lorem ipsum dolor sit amet, modus iusto cotidieque vel eu. Qui equidem volutpat petentium ad, eu cum malorum accusamus. Cu enim nullam ancillae mel, detracto senserit consetetur vim id. Qui latine nostrum ei, ea vix agam tollit deseruisse, te cum labore ancillae instructior. Viderer fabellas scribentur per et, nam accusata definiebas et.");
+				return $p;
+			}
+			function code(texto){
+				$p = $(document.createElement( "code"));
+				$p.text("<div class=\""+texto+"\"></div>");
+				return $p;
+			}
+
+
+		</script>		
+	</head>
+	<body class="container">        
+	</body>
+</html>
