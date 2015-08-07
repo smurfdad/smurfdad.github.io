@@ -4,12 +4,13 @@ html {
 }
 body {
   /* Altura del pie de pagina */
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
+
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Altura del pie de pagina */
-  height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
 }
