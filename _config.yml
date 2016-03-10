@@ -14,3 +14,7 @@ github_username: smurfdad
 
 # Build settings
 markdown: kramdown
+
+paginate: 2
+show_drafts: false
+future: false
