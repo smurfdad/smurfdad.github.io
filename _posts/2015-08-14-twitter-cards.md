@@ -9,8 +9,8 @@ No es una funcionalidad nueva, lo sé, pero yo lo acabo de descubrir y me parece
 
 Aquí os dejo el código de etiquetas meta según pone en la documentación y la adaptación por si queréis incluirlas en vuestro blog de Blogger.
 
-{% gist d1f774b20611459d2960 Twitter%2520Cards%2520Meta%2520Tags%2520.xml %}
+{% gist d1f774b20611459d2960 documentacion.xml %}
 
 Y para los que usais Blogger.
 
-{% gist d1f774b20611459d2960 Twitter%2520Cards%2520Meta%2520Tags%2520para%2520Blogger%2520.xml %}
+{% gist d1f774b20611459d2960 blogger.xml %}
