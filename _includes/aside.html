@@ -17,21 +17,6 @@
         {% endfor %}
     </ul>
 </div>
-
-<div class="bs-callout bs-callout-success">
-    <h3>Histórico de publicaciones</h3>
-    <ul class="list-unstyled">
-    {%assign histMonth = ""%}
-    {% for post in site.posts %}
-        {% assign currentMonth = post.date | date: "%Y%m" %}
-        {%if histMonth != currentMonth%}
-            <li>{{post.date | date:"%b %Y"}}</li>
-            {%assign histMonth = currentMonth%}
-        {%endif%}
-    {% endfor %}
-    </ul>
-</div>
-
 <div class="bs-callout bs-callout-default">
     <h3>Mis otras webs</h3>
     <ul class="list-unstyled">

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Sobre mí
-permalink: /p/about.html
 ---
 ¡Hola!
 Permíteme que me presente, soy Smurf Dad, un pitufo ingeniero informático que de momento se puede permitir vivir de lo que ha estudiado. Soy informático de profesión y de vocación por lo que mucho me pueden catalogar de “friki” (así lo hacen muchos amigos y compañeros), me encanta este mundo y estoy contentísimo de poder dedicarme a esto.
