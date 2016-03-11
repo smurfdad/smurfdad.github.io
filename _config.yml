@@ -20,5 +20,6 @@ show_drafts: false
 future: false
 permalink: /:year/:month/:title.html
 timezone: Europe/Madrid
+google-analytics: UA-637317-4
 
 gems: [jekyll-paginate, jekyll-gist]
