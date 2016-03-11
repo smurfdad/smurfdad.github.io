@@ -15,6 +15,7 @@ github_username: smurfdad
 # Build settings
 markdown: kramdown
 
-paginate: 2
+paginate: 10
 show_drafts: false
 future: false
+permalink: /:year/:month/:title.html

@@ -6,6 +6,32 @@
         <li><a alt="Github" href="http://github.com/smurfdad" target="_blank" title="Github"><span class="icon-round-social icon-round-social-github"></span></a></li>
     </ul>
 </div>
+<div class="bs-callout bs-callout-warning">
+    <h3>De qué hablo</h3>
+    <ul class="cloud-tag-list">
+        {% for tema in site.categories %}
+        <li class="cloud-tag-list-item cloud-tag-list-item-warning">{{tema | first | capitalize}} <span class="badge">{{tema[1] | size}}</span></li>
+        {% endfor %}
+        {% for tema in site.tags %}
+        <li class="cloud-tag-list-item cloud-tag-list-item-warning">{{tema | first | capitalize}} <span class="badge">{{tema[1] | size}}</span></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="bs-callout bs-callout-success">
+    <h3>Histórico de publicaciones</h3>
+    <ul class="list-unstyled">
+    {%assign histMonth = ""%}
+    {% for post in site.posts %}
+        {% assign currentMonth = post.date | date: "%Y%m" %}
+        {%if histMonth != currentMonth%}
+            <li>{{post.date | date:"%b %Y"}}</li>
+            {%assign histMonth = currentMonth%}
+        {%endif%}
+    {% endfor %}
+    </ul>
+</div>
+
 <div class="bs-callout bs-callout-default">
     <h3>Mis otras webs</h3>
     <ul class="list-unstyled">
