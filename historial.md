@@ -1,8 +1,7 @@
 ---
 title: Historico de Publicaciones
-layout: default
+layout: page
 ---
-<h2>{{page.title}}</h2>
 {% for post in site.posts %}
   <div class="row">
     <div class="col-md-2">{{ post.date | date_to_string }}</div>
