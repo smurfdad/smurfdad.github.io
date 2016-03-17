@@ -13,7 +13,7 @@
           {% capture categoria %}{{tema | first }}{% endcapture%}
           {% capture cuenta %}{{tema[1] | size}}{% endcapture%}        
         <li class="cloud-tag-list-item cloud-tag-list-item-success">
-          <a href="/categories/#{{categoria | slugify}}">{{categoria | capitalize}} <span class="badge">{{cuenta}}</span>
+          <a href="/categorias/#{{categoria | slugify}}">{{categoria | capitalize}} <span class="badge">{{cuenta}}</span>
         </li>
         {% endfor %}
     </ul>
