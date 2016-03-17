@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Las cinco casas de Albert Einstein
-tags: [Para pasar el rato]
+tags: 
+categories:
+- Para pasar el rato
 ---
 En el periódico he podido ver el siguiente juego, acertijo, pasatiempo,… llamadlo como queráis. Me ha recordado a mis tiempos de instituto cuando teníamos en clase de filosofía una hora a la semana dedicada a la lógica natural y juegos relacionados.
 

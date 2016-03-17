@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Los móviles modernos
-tags: [Aplicaciones Google, Smartphone]
+tags:
+- Aplicaciones Google
+- Smartphone
+categories:
+- Articulos
 ---
 Cada día leemos que han sacado el móvil nosecuantitos X o el iZutanito 8.
 Me llama la atención las hordas de personas que se lanzan a comprarlos solo por estar a la moda o por capricho. Cada vez que me preguntan mis amigos y/o familiares que móvil necesitan les hago las misma pregunta “¿para que lo quieres?” y en la mayoría de los casos me suelen responder “Para llamar, mensajes, whatsapp, sacar fotos y ver videos”.

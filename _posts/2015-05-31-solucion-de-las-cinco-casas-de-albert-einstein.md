@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Solución de las cinco casas de Albert Einstein
-tags: [Para pasar el rato]
+tags:
+categories:
+- Para pasar el rato
 ---
 En mi un post anterior os planteaba el acertijo de <a href="http://www.smurfdad.es/2015/05/las-cinco-casas-de-albert-einstein.html">las cinco casas de Albert Einstein</a> y os indicaba que despues de un tiempo os daría la solución, pues ese dia ha llegado, aqui os dejo la solucion que me da a mi.
 

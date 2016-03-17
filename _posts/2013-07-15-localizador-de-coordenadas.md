@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Localizador de Coordenadas
-tags: [Mis locas ideas]
+tags:
+- Utilidades
+- Geolocalización
+categories:
+- proyectos
 ---
 Durante mucho tiempo siempre me ha interesado el mundo de los GPS´s, me parecen una herramienta muy útil para la conducción. Hace tiempo estuve muy involucrado en un foro donde se localizaban puntos de interés, por motivos personales, tuve que dejar de lado el foro, pero las cosas que tiene la vida, por motivos laborales he vuelto a esta temática.
 

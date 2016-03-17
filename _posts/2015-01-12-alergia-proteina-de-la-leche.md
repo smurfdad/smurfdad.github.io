@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Alergia Proteína de la leche
-tags: [APLV, Personal]
+tags:
+- APLV
+categories:
+- Personal
 ---
 Puede que algunos me conozcáis en persona, no solo por mi alter ego (Smurf Dad), pero si me seguís en <a href="http://www.twitter.com/Smurf_Dad">Twitter</a> sabréis que suelo retwittear bastantes cosas relacionadas con las alergias alimentarias, en especial, con la alergia a las proteínas a la leche de vaca (APLV). En la vida real soy padre de un niño que padece esta alergia.
 

@@ -6,23 +6,25 @@
         <li><a alt="Github" href="http://github.com/smurfdad" target="_blank" title="Github"><span class="icon-round-social icon-round-social-github"></span></a></li>
     </ul>
 </div>
-<div class="bs-callout bs-callout-warning">
+<div class="bs-callout bs-callout-success">
     <h3>De qué hablo</h3>
     <ul class="cloud-tag-list">
         {% for tema in site.categories %}
-        <li class="cloud-tag-list-item cloud-tag-list-item-warning">{{tema | first | capitalize}} <span class="badge">{{tema[1] | size}}</span></li>
-        {% endfor %}
-        {% for tema in site.tags %}
-        <li class="cloud-tag-list-item cloud-tag-list-item-warning">{{tema | first | capitalize}} <span class="badge">{{tema[1] | size}}</span></li>
+          {% capture categoria %}{{tema | first }}{% endcapture%}
+          {% capture cuenta %}{{tema[1] | size}}{% endcapture%}        
+        <li class="cloud-tag-list-item cloud-tag-list-item-success">
+          <a href="/categories/#{{categoria | slugify}}">{{categoria | capitalize}} <span class="badge">{{cuenta}}</span>
+        </li>
         {% endfor %}
     </ul>
 </div>
-<div class="bs-callout bs-callout-default">
-    <h3>Mis otras webs</h3>
-    <ul class="list-unstyled">
-        <li><a href="http://recetas.smurfdad.es">Recetas<br>Tu libro de recetas en internet</a></li>
-        <li><a href="http://geo.smurfdad.es/">Localizador de Coordenadas</a></li>
-        <li><a href="http://app.smurfdad.es">Smurf Dad´s Apps: Pequeñas aplicaciones web que desarrollo</a>
-        </li>
+<div class="bs-callout bs-callout-info">
+    <h3>Temas</h3>
+    <ul class="cloud-tag-list">
+        {% for tema in site.tags %}
+          {% capture tag %}{{tema | first }}{% endcapture%}
+          {% capture cuenta %}{{tema[1] | size}}{% endcapture%}        
+          <a href="/tags/#{{ tag | slugify}}">{{tag | capitalize}}</a>{%if tema != site.tags.last%}, {%endif%}
+        {% endfor %}
     </ul>
 </div>

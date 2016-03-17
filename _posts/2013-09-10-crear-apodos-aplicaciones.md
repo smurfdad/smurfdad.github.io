@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Crear apodos a aplicaciones
-tags: [Trucos]
+tags:
+- Windows
+categories:
+- Cheat sheets
 ---
 Existe una característica oculta en el registro de Windows nos permite crear apodos para los programas, por ejemplo, un apodo llamado "bloc.exe" al ser ejecutado inicie otro programa, como por ejemplo el bloc de notas (“notepad.exe”).
 

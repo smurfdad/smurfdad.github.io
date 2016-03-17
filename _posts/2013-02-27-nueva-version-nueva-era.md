@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Nueva versión, nueva era..."
-tags: [Mis locas ideas]
+tags:
+categories:
+- Anuncios
 ---
 Comenzamos esta nueva version de la web en formato blog.
 

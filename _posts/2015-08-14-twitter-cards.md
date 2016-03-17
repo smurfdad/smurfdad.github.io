@@ -1,7 +1,13 @@
 ---
 layout: post
 title:  Twitter Cards
-tags: [Aplicaciones Google, Cheat Sheets]
+tags:
+- Twitter
+- HTML
+- Blogger
+- Blogging
+categories:
+- Cheat Sheets
 ---
 Recientemente he descubierto una forma de publicar enlaces en Twitter de una manera visual, se trata de las <a href="https://dev.twitter.com/cards/getting-started">Cards</a>.
 

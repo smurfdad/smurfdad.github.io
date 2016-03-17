@@ -1,7 +1,10 @@
 ---
 layout: post
 title: CheatSheet VBScript
-tags: [Cheat Sheets, VBScript]
+tags:
+- VBScript
+categories:
+- Cheat Sheets
 ---
 Minitutorial para poder realizar archivos de comandos en Visual Basic Script (.vbs). Personalmente me parece mucho más potentes que los .bat
 

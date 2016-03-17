@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Relanzamos la web de Recetas de Cocina
-tags: [Mis locas ideas]
+tags:
+- recetas de cocina
+categories:
+- proyectos
 ---
 Hace tiempo inicie un proyecto de recopilación de recetas de cocina, este proyecto ha sufrido muchas etapas y hoy me complace presentaros la ultima.
 
