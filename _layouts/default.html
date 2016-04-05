@@ -11,7 +11,7 @@
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@{{site.author}}" />
-<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 <meta name='twitter:url' content="{{ page.url | prepend: site.baseurl }}"/>
 
