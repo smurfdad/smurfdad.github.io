@@ -1,6 +1,7 @@
 ---
 title: Histórico de Publicaciones
-layout: page
+layout: default
+permalink: /historial/index.html
 ---
 <div class="timeline"><dl>
 {% for post in site.posts %}
