@@ -4,16 +4,21 @@ layout: default
 <div class="timeline"><dl>
 {%assign first_post_id = site.posts.first.id%}
 {% for post in paginator.posts %}
-  <dt>{{ post.date | date_to_string }}</dt>
+  {% capture nfecha %}{{ post.date |  date: "%B %Y" }}{% endcapture %}
+  {% if fecha != nfecha %}
+    <dt>{{ nfecha }}</dt>
+  {% endif %}
   <dd class="{% cycle 'pos-right', 'pos-left' %} clearfix">
       <div class="circ"></div>
+      <div class="time">{{ post.date | date: "%d" }}</div>
       <div class="events">
         <div class="events-body">
           <h4 class="events-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
           <p>{{ post.excerpt }}</p>
         </div>
       </div>
-  </dd>      
+  </dd> 
+  {% capture fecha %}{{ post.date | date: "%B %Y" }}{% endcapture %}     
 {% endfor %}
 </dl></div>
 {% if paginator.total_pages > 1 %}
