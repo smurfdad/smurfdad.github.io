@@ -24,19 +24,19 @@ Lo primero de todo que hice fue unificar todos los contactos que tenia en la tar
 
 Posteriormente, le indique a mi teléfono que sincronizase los contactos.
 
-<img class="img-responsive" src="http://lh5.ggpht.com/-SGZXuYegt_Q/UTOc1u1jFOI/AAAAAAAAAUc/DxDcD1Uf7g0/SC20130208-210120_thumb.png">
+<img class="img-responsive" src="http://lh5.ggpht.com/-SGZXuYegt_Q/UTOc1u1jFOI/AAAAAAAAAUc/DxDcD1Uf7g0/SC20130208-210120_thumb.png" alt="">
 
 Eso lo podéis hacer en “Ajustes”, dentro de “Cuentas y sincronización”. ¡Voila! Toda mi agenda de la web en mi teléfono.
 
 Ahora y para evitar que cuando añadiese otro contacto me fuese al teléfono o a la SIM, le dije a mi teléfono (que es muy listo) que me guardase los nuevos contactos en mi cuenta Google. Entrando en los ajustes de la agenda encontrareis la siguiente opción.
 
-<img class="img-responsive" src="http://lh3.ggpht.com/-VefEwPfplXc/UTOc4B8L1lI/AAAAAAAAAUs/oG_F96-g01U/SC20130208-210219_thumb.png">
+<img class="img-responsive" src="http://lh3.ggpht.com/-VefEwPfplXc/UTOc4B8L1lI/AAAAAAAAAUs/oG_F96-g01U/SC20130208-210219_thumb.png" alt="">
 
-<img class="img-responsive" src="http://lh5.ggpht.com/-PYhGbDfo56o/UTOc7t0b3pI/AAAAAAAAAU8/rfEOfCnQxRc/SC20130208-210225_thumb.png">
+<img class="img-responsive" src="http://lh5.ggpht.com/-PYhGbDfo56o/UTOc7t0b3pI/AAAAAAAAAU8/rfEOfCnQxRc/SC20130208-210225_thumb.png" alt="">
 
 Por último le dije que solo me mostrarse los contactos de dicha cuenta en la agenda. Eso también lo podéis hacer en los ajustes de la agenda, en el apartado de “Opciones de pantalla”
 
-<img class="img-responsive" src="http://lh4.ggpht.com/-f7JExd6GYuk/UTOc-ZxbRCI/AAAAAAAAAVM/0Bc05fzdq-E/SC20130208-210251_thumb%25255B1%25255D.png">
+<img class="img-responsive" src="http://lh4.ggpht.com/-f7JExd6GYuk/UTOc-ZxbRCI/AAAAAAAAAVM/0Bc05fzdq-E/SC20130208-210251_thumb%25255B1%25255D.png" alt="">
 
 ¡Ole! Ya está.
 
