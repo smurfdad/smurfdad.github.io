@@ -10,7 +10,7 @@ install: gem install jekyll jekyll-paginate jekyll-sitemap github-pages html-pro
 # the `install` step will run `bundle install` by default.
 script: 
   - bundle exec jekyll build 
-  - bundle exec htmlproofer ./_site --allow_hash_href true
+  - bundle exec htmlproofer ./_site --allow_hash_href
 
 # branch whitelist, only for GitHub Pages
 branches:
