@@ -4,7 +4,7 @@ rvm:
 
 cache: bundle
 
-install: gem install jekyll jekyll-paginate jekyll-sitemap html-proofer
+install: gem install jekyll jekyll-paginate jekyll-sitemap github-pages html-proofer
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
