@@ -8,7 +8,9 @@ install: gem install jekyll jekyll-paginate jekyll-sitemap html-proofer
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: jekyll build && htmlproofer ./_site --allow_hash_href true
+script: 
+  - bundle exec jekyll build 
+  - bundle exec htmlproofer ./_site --check-html
 
 # branch whitelist, only for GitHub Pages
 branches:
@@ -17,7 +19,7 @@ branches:
 
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 notifications:
   email:
